@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title id = "title">Curriculum Vitae</title>
+    <!-- Importing bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style type="text/css"></style>
+</head>
+<body>
+    <!-- Declaring a division class to add a background image -->
+    <div class="background-image">
+    <!-- Declaring a division class for a navigation row -->
+    <div class="container" id="container1">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <a href="#" class="navbar-brand">
+                <img src="images/logo.png" alt="Bootstrap 5 Logo" height="150"
+                class="d-inline-block align-top" />
+            </a>
+            <!-- Declaring a navigation button for a drop down menu when using mobile devices -->
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#toggleMobileMenu"
+                aria-controls="toggleMobileMenu"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Adding all the links to different div classes on my webpage -->
+            <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li><a class="nav-link" href="#skills">Skills</a></li>
+                    <li><a class="nav-link" href="#education">Education</a></li>
+                    <li><a class="nav-link" href="#experience">Experience</a></li>
+                    <li><a class="nav-link" href="#project">Projects</a></li>
+                    <li><a class="nav-link" href="#contact">Contact Details</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <br>
+    <!-- Declaring div classes for all my contents -->
+    <div class="container" id="about">
+        <div class="row">
+            <div class="col">
+                <img src = "images/Frankie.jpg" width = "600"
+                     height="480">
+            </div>
+            <div class="col">
+                <!-- Creating the first heading -->
+                <h1><b>About Me</b></h1>
+                <!-- Adding 2 paragraphs -->
+                <p>
+                    Ambitious junior software developer. New to the exciting world of programming. I have garnered<br>
+                    a love for coding, finding solutions and being creative.
+                </p>
+                <p>
+                    I have switched careers a bit late in my life and I'm extremely excited to start this new journey.<br>
+                    Taking this leap certainly has caused some chaos and uncertainty, but has given me then will to<br>
+                    do whatever it takes to succeed.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="skills">
+        <div class="row"><h2>Skills</h2>
+            <div class="col">
+                <li><b>Hard Skills:</b>
+                    <ul>
+                        <li>Good understanding and application of both English and Afrikaans</li>
+                        <li>Competent in both Java and Python programming language</li>
+                        <li>Competent in Microsoft Office and Excel</li>
+                        <li>Good understanding of Agile Software Development practices</li>
+                    </ul>
+                </li>
+            </div>
+            <div class="col">
+                <li><b>Soft Skills:</b>
+                    <ul>
+                        <li>Good communication skills</li>
+                        <li>Ability to solve problems in a team dynamic</li>
+                        <li>Good time management skills</li>
+                        <li>Ability to take control of situations</li>
+                    </ul>
+                </li>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container" id="education">
+        <div class="row"><h2>Education</h2>
+            <div class="col">
+                <ul>
+                    <li><b>High School President:</b><br>
+                        Grade 12 Senior Certificate 2007
+                    </li><br>
+                    <li><b>Cape Peninsula University of Technology:</b><br>
+                        National Certificate in Production Management 2021
+                    </li><br>
+                    <li><b>Hyperion Dev:</b><br>
+                        Software Engineering Bootcamp 2021
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container" id="experience">
+        <div class="row"><h2>Experience</h2>
+            <div class="col">
+                <ul>
+                    <li>
+                        <b>Position:</b> Engineering Technician.<br>
+                        <b>Date:</b> July 2008 - September 2013.<br>
+                        <b>Description:</b> Maintenance and production of long distance locomotive coaches.<br>
+                    </li><br>
+                    <li>
+                        <b>Position:</b> Senior Engineering Technician.<br>
+                        <b>Date:</b> October 2013 - October 2021.<br>
+                        <b>Description:</b> Managing a small team responsible for maintenance of diesel locomotives
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container" id="project">
+        <div class="row"><h2>Projects</h2>
+            <div class="col">
+                <ul>
+                    <li>
+                        <b>Project Name:</b> Poised Project Management System.<br>
+                        <b>Description:</b> a Project management application for the creation and storing of construction projects.<br>
+                        <!-- Adding buttons to replace my links -->
+                        <a target = "_blank" href = "https://github.com/FrankieVN/CapStone4" class="btn btn-primary"> Poised</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container" id="contact">
+        <div class="row"><h3>Contact Details</h3>
+            <div class="col">
+                <ul>
+                    <li><b>Cell Number:</b> 0835321101</li><br>
+                    <li><a target = "_blank" href = "https://www.linkedin.com/in/frankie-van-noordwyk-131558135/" class="btn btn-primary"> LinkedIn</a></li><br>
+                    <li><a target = "_blank" href = "mailto:f.noordwyk@gmail.com" class="btn btn-primary"> Email Me</a></li><br>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+</body>
+</html>

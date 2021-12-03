@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+ }
+ 
+ /*Setting the height for my header*/
+ .header
+ {
+ 	height: 100vh;
+ }
+ 
+ /*Using box shadow to underline my first div class*/
+ #container1
+ {
+ 	box-shadow: 0 2px 0px;
+ }
+ 
+ /*Changing the font of all my headers*/
+h1
+{
+	font-family: 'Times New Roman', serif;
+}
+h2
+{
+	font-family: 'Times New Roman', serif;
+}
+h3
+{
+	font-family: 'Times New Roman', serif;
+}
+
+/*Changing the style of my buttons*/
+.btn-primary
+{
+	color: black;
+	background-color: silver;
+	border-color: black;
+	border-radius: 1px; 
+}
+.btn-primary:hover
+{
+	color: white;
+	background-color: black;
+	border-color: silver;
+}
+
+/*Adding a background image to my div class and setting it to cover the screen, to not repeat
+and to not move when I scroll the page*/
+.background-image
+{
+	background-image: url('images/background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+}
